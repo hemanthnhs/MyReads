@@ -15,11 +15,11 @@ const BookList = (props) => {
         return (
           <li key={index}>
             <Book
-              title={title}
-              imgUrl={(imageLinks && imageLinks.thumbnail) || defaultImg}
-              authors={authors}
-              status={shelf}
-              onBookStatusChange={(newStatus) => onBookStatusChange(book, newStatus)}
+                title={title}
+                imgUrl={(imageLinks && imageLinks.thumbnail) || defaultImg}
+                authors={authors}
+                status={shelf}
+                onBookStatusChange={(newStatus) => onBookStatusChange(book, newStatus)}
             />
           </li>
         )

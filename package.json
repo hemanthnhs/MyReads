@@ -17,7 +17,7 @@
     "eject": "react-scripts eject"
   },
   "name": "myReadsApp",
-  "description": "A Book Lending App for Udacity's React Course  by Hemanth.",
+  "description": "A Book Lending App for Udacity's React Course by Hemanth.",
   "version": "1.0.0",
   "main": "index.js",
   "author": "",

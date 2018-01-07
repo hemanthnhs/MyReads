@@ -7,15 +7,15 @@ const HomePage = (props) => {
   const { books, onBookStatusChange } = props
   const bookShelves = [
     {
-      title: 'Currently Reading',
+      title: 'Currently Reading..',
       books: books.filter((b) => b.shelf === 'currentlyReading')
     },
     {
-      title: 'Want to Read',
+      title: 'Want to Read..',
       books: books.filter((b) => b.shelf === 'wantToRead')
     },
     {
-      title: 'Read',
+      title: 'Read..',
       books: books.filter((b) => b.shelf === 'read')
     }
   ]
